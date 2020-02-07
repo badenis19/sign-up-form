@@ -1,0 +1,43 @@
+h1 {
+    color: red;
+}
+
+.main {
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.tabs {
+    width: 100%;
+    height: 10%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+#btn1 {
+    border: 1px solid purple;
+    width: 40%;
+    height: 100%;
+    background: blue;
+}
+
+#btn2 {
+    border: 1px solid blue;
+    width: 40%;
+    height: 100%;
+    background: red;
+}
+
+.my_form {
+    height: 80%;
+    border: 1px solid red;
+    width: 100%;
+}
+
+.hidden {
+    /* visibility: hidden; */
+    display: none;
+}
