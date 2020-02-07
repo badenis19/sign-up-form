@@ -11,20 +11,30 @@
     <div class="main">
 
         <div class="tabs">
-            <div id="btn1"><p>Sign Up</p></div>
+            <div id="btn1" class="btn-active"><p>Sign Up</p></div>
             <div id="btn2"><p>Log in</p></div>
         </div>
 
         <div class="my_form">
+
+            <h1>Sign Up for Free</h1>
             <div id="sign-up">
-                <h1>SIGN UP</h1>
-                <form action="">
+                <form id="form-sign" action="">
+                    <div class="names">
+                        <input type="text" placeholder="  First Name*">
+                        <input type="text" placeholder="  Last Name*">
+                    </div>
                     <div>
-                        <input type="text">
-                        <input type="text">
+                    <input class="email" type="text" placeholder="  Email Address*">
+                    <input class="password" type="password" placeholder="  Set A Password*">
+                    <input class="get-started" type="submit" value="GET STARTED">
                     </div>
                 </form>
             </div>
+
+
+
+            
             <div id="login" class="hidden">
                 <h1>LOG IN</h1>
             </div>
